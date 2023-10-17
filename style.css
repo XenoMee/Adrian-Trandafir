@@ -1,4 +1,30 @@
+.navbar{
+    background-color: #445D48;
+}
+
 .navbar-brand{
-    /* margin-right: 32%; */
-    margin-left: 20px;
+    color: white;
+}
+
+.nav-item{
+    padding: 0px 5px;
+}
+
+.intro-bg-img{
+    width: 100%;
+    height: 100vh;
+    background-color: #D6CC99;
+}
+
+.intro-profile-img{
+    margin-top: 10%;
+    border-radius: 50%;
+}
+
+.container{
+    height: 100vh;
+}
+
+.introduction{
+    color: #001524;
 }
