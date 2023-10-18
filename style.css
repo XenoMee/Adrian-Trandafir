@@ -54,22 +54,8 @@
 
 .poppins{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
 }
 
 .card{
     border: none;
-}
-
-
-
-h2,h3{
-    font-family: 'Cardo', serif;
-    font-size: 2.5rem;
-}
-
-h4,h5{
-    font-family: 'Cardo', serif;
-    font-size: 1.5rem;
 }
