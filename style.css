@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+
 .navbar{
     background-color: #445D48;
 }
@@ -33,8 +38,38 @@
     margin-bottom: 2.125rem;
 }
 
-.experience-img{
+.experience-img, .profile-picture{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    background-color: #445D48;
+    color: #D6CC99;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card{
+    border: none;
+}
+
+
+
+h2,h3{
+    font-family: 'Cardo', serif;
+    font-size: 2.5rem;
+}
+
+h4,h5{
+    font-family: 'Cardo', serif;
+    font-size: 1.5rem;
 }
