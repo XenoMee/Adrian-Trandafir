@@ -2,12 +2,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
 
+@media (max-width: 576px) {
+    #adrian-name{
+        padding-top: 10px;
+    }
+
+    .navbar-brand{
+        margin-bottom: 5px;
+    }
+
+    .copyright{
+        position: relative;
+        top: 13px;
+    }
+
+    .intro-buttons{
+        position: relative;
+        top: 20px;
+    }
+
+    img[alt="intro-profile-img"]{
+        position: relative;
+        bottom: 20px;
+    }
+
+}
+
+@media (max-width: 1000px) and (min-width: 577px){
+    #adrian-name{
+        padding-top: 15px;
+    }
+}
+
+@media (max-width:990px){
+    .motorfest, .tc2{
+        padding: 10px 0px;
+    }
+
+    img[alt="sigla-ura"]{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:2000px){
+    .navbar-text{
+        display: none !important;
+    }
+}
+
+body{
+    text-align: justify;
+}
+
 .navbar{
     background-color: #445D48;
 }
 
 .navbar-brand{
     color: white;
+}
+
+.navbar-text{
+    color: white;
+    padding: 0 5px;
+    margin: 0;
+    display: inline;
 }
 
 .nav-item{
